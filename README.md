@@ -1,8 +1,8 @@
-# Developer Contolled Wallets
+# Developer Controlled Wallets
 
 Welcome to the `developer controlled wallets` section which is a follow up tutorial from the [previous one](https://github.com/SimonYuvarlak/Gas-Station.git)
 
-In this section of the course, you will learn how to craete user controlled wallets. To be honest, I like this part much more.
+In this section of the course, you will learn how to craete developer controlled wallets. To be honest, I like this part much more.
 
 ## How to Use this Repository
 
