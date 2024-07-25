@@ -66,3 +66,5 @@ Once this process is safely done, you can continue to the project.
 Before step 6 (listing the wallet transactions by calling `wallet_transactions()`), go to the [faucet website](https://faucet.circle.com/) and get some test tokens for the `WALLET_ADDRESS_1`. Do not worry, you will acquire the address before this step. You are making this simply because this acquisation of test tokens will be the transaction that you will be checking.
 
 **As usual, you will find a TASK.md file**
+
+![success_transaction_screenshot](screenshot.png)

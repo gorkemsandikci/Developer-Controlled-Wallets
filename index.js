@@ -23,7 +23,7 @@ WALLET_ADDRESS_1=
 WALLET_ADDRESS_2=
 USDC_TOKEN_ID=7adb2b7d-c9cd-5164-b2d4-b73b088274dc
 
-Start with adding the API_KEY. 
+Start with adding the API_KEY.
 You will fill the rest once you have obtained the data from the Circle API.
 
 You will comment out the code below step by step since you will need to obtain data
@@ -52,11 +52,12 @@ npm run start
 // ----- Step 1 -----
 
 // Generate a random secret
-// const secret = generate_secret();
-// console.log("secret: ", secret);
+//const secret = generate_secret();
+//console.log("secret: ", secret);
 
-// // // // Generate ciphertext
-// const ciphertext = generate_ciphertext(secret);
+// // // // // Generate ciphertext
+//const ciphertext = generate_ciphertext(secret);
+//console.log("ciphertext: ", ciphertext);
 
 // ! Do not forget to save the secret and the ciphertext in a secure place. !
 
@@ -69,7 +70,7 @@ npm run start
 // ----- Step 2 -----
 
 // Create Wallet Set
-// create_wallet_set();
+//create_wallet_set();
 
 // Should return:
 // data: {
@@ -213,7 +214,7 @@ npm run start
 // ----- Step 7 -----
 
 // Get wallet balance
-// get_balance();
+get_balance();
 
 // Should return:
 // response: {
@@ -240,13 +241,14 @@ npm run start
 
 // Should return:
 // response:  { id: <some id>, state: 'INITIATED' }
+// 670f787d-5f6d-5516-a3e1-2689edc1079d
 
 // You will use this id in the next step, so go ahead and save it.
 
 // ----- Step 9 -----
 
 // Check transfer state
-// check_transfer_state("4b380ca3-4e0a-5648-8b45-0e95e1a809ec");
+check_transfer_state("670f787d-5f6d-5516-a3e1-2689edc1079d");
 
 // Should return:
 // response:  {
